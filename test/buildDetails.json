@@ -1,0 +1,168 @@
+{
+  "searchQuery": {
+    "jobName": "UI_BAT_Booking",
+    "buildReference": "1073",
+    "type": "Selenium"
+  },
+  "searchResult": [
+    {
+      "_id": "5bc9ca2566ae38425a566909",
+      "__v": 8,
+      "jobDetails": {
+        "jobName": "UI_BAT_Booking",
+        "environment": "in2",
+        "buildReference": "1073",
+        "startDateTime": "2018-10-19T12:12:21Z",
+        "endDateTime": "2018-10-19T12:13:47Z",
+        "jobStatus": "COMPLETED",
+        "triggeredBy": { "userId": "Mock ID", "userName": "Mock User" },
+        "duration": "00hrs 01mins 26secs"
+      },
+      "testcaseDetails": [
+        {
+          "startDateTime": "2018-10-19T12:12:22Z",
+          "testCollectionName": "Booking_Suite",
+          "_id": "5bc9ca2666ae38425a56690b",
+          "endDateTime": "2018-10-19T12:13:47Z",
+          "testcases": [
+            {
+              "startDateTime": "2018-10-19T12:12:23Z",
+              "testId": "6",
+              "_id": "5bc9ca2766ae38425a56691a",
+              "comments": "Vehicle Required..but the page was skipped",
+              "confirmationNumber": null,
+              "endDateTime": "2018-10-19T12:13:05Z",
+              "testcaseResult": "FAIL",
+              "metatags": [],
+              "resultLogs": [
+                "[{\"stringValue\":[\"info: ****************Start case  TA Booking - silo1 - One Way - 1 Pax - Hotel - Car*****************\",\"info: TA signed in\",\"info: Select OAK as departure city\",\"info: Select LAS as destination city\",\"info: Select One Way\",\"info: Departure date  9-\",\"info: Select 1 adult\",\"info: Click Search\",\"info: Departure Flight  1030\",\"info: Click Continue\",\"info: Select hotel  Flamingo\",\"info: Click continue\",\"info: *******************TA Booking - silo1 - One Way - 1 Pax - Hotel - Car is Completed*****************\",\"info: Vehicle Required..but the page was skipped\"],\"name\":\"combined-log\",\"type\":\"text/json\"}]"
+              ],
+              "testParameters": [],
+              "testDescription": {
+                "scenarioLabel": "TA Booking - silo1 - One Way - 1 Pax - Hotel - Car",
+                "scenarioDescription": "TA Booking - silo1 - One Way - 1 Pax - Hotel - Car"
+              },
+              "duration": "00hrs 00mins 42secs"
+            },
+            {
+              "startDateTime": "2018-10-19T12:12:23Z",
+              "testId": "3",
+              "_id": "5bc9ca2766ae38425a56691b",
+              "comments": "",
+              "confirmationNumber": "7QQN4K",
+              "endDateTime": "2018-10-19T12:13:47Z",
+              "testcaseResult": "PASS",
+              "metatags": [],
+              "resultLogs": [
+                "[{\"stringValue\":[\"info: ****************Start case  WWW Booking - silo1 - One Way - 1 Pax - Do online check-in*****************\",\"info: CMSDB Connection is established\",\"info: Check-in market  SCK | SAN\",\"info: Select SCK as departure city\",\"info: Select SAN as destination city\",\"info: Select One Way\",\"info: Departure date  9-19\",\"info: Select 1 adult\",\"info: Click Search\",\"info: Departure Flight  652\",\"info: Click Continue\",\"info: No thanks, I don't need a vehicle\",\"info: Filling pax info number 1\",\"info: Click continue\",\"info: No seat selected\",\"info: Click continue\",\"info: Select 0 carry-on, 0 checked, and false priority boarding\",\"info: Select boarding option  Self-Printed Paper Boarding Pass FREE SELECTED\",\"info: Click continue\",\"info: Close apply allegiant card pop-up\",\"info: Filled card information\",\"info: Entered email  bat@allegiantair.com\",\"info: Click purchse\",\"info: Confirmation Number Found  7QQN4K\",\"info: Fill Jabreakit Jubawdit7QQN4K and click continue\",\"info: Click CHECK_IN\",\"info: Add 1 carry-on, 2 checked, and  priority boarding\",\"info: Click CONTINUE from bag and boading page\",\"info: Click CONTINUE from hazard page\",\"info: Upgrading seat  27D economy aisle seat for pax 1\",\"info: Click Continue\",\"info: Filled card information\",\"info: Click pay & continue\",\"info: Print All Boarding Passes Clicked\",\"info: Boarding pass printed\",\"info: *******************WWW Booking - silo1 - One Way - 1 Pax - Do online check-in is Completed*****************\"],\"name\":\"combined-log\",\"type\":\"text/json\"}]"
+              ],
+              "testParameters": [],
+              "testDescription": {
+                "scenarioLabel": "WWW Booking - silo1 - One Way - 1 Pax - Do online check-in",
+                "scenarioDescription": "WWW Booking - silo1 - One Way - 1 Pax - Do online check-in"
+              },
+              "duration": "00hrs 01mins 24secs"
+            },
+            {
+              "startDateTime": "2018-10-19T12:12:23Z",
+              "testId": "9",
+              "_id": "5bc9ca2766ae38425a56691c",
+              "comments": "",
+              "confirmationNumber": "7QQN4L",
+              "endDateTime": "2018-10-19T12:13:43Z",
+              "testcaseResult": "PASS",
+              "metatags": [],
+              "resultLogs": [
+                "[{\"stringValue\":[\"info: ****************Start case  CC Booking - silo1 - Round Trip - 1 Pax - Hotel - Car - CC modification*****************\",\"info: Select SCK as departure city\",\"info: Select LAS as destination city\",\"info: Select Round Trip\",\"info: Departure date  9-\",\"info: Returning date  9-23\",\"info: Select 1 adult\",\"info: Click Search\",\"info: Departure Flight  133\",\"info: Returning Flight  132\",\"info: Click Continue\",\"info: Select hotel  Four Queens\",\"info: Click continue\",\"info: Select vehicle  add Alamo, Economy 2/4 Door vehicle at $2,400.00\",\"info: Click continue\",\"info: Select PPOC for pax # 01\",\"info: No seat selected\",\"info: Click continue\",\"info: Select 0 carry-on, 0 checked, and false priority boarding\",\"info: Click continue\",\"info: Filling pax info number 1\",\"info: Click continue\",\"info: Filled card information\",\"info: Entered email  bat@allegiantair.com\",\"info: Click purchse\",\"info: Confirmation Number Found  7QQN4L\",\"info: Seach itn  7QQN4L\",\"info: Seat Added\",\"info: Bags & Priority Boarding Added\",\"info: Confirm & Redisplay Appears\",\"info: *******************CC Booking - silo1 - Round Trip - 1 Pax - Hotel - Car - CC modification is Completed*****************\"],\"name\":\"combined-log\",\"type\":\"text/json\"}]"
+              ],
+              "testParameters": [],
+              "testDescription": {
+                "scenarioLabel": "CC Booking - silo1 - Round Trip - 1 Pax - Hotel - Car - CC modification",
+                "scenarioDescription": "CC Booking - silo1 - Round Trip - 1 Pax - Hotel - Car - CC modification"
+              },
+              "duration": "00hrs 01mins 20secs"
+            },
+            {
+              "startDateTime": "2018-10-19T12:12:23Z",
+              "testId": "15",
+              "_id": "5bc9ca2766ae38425a56691d",
+              "comments": "",
+              "confirmationNumber": "DB Local Time: 2018-10-21 16:25:00.0",
+              "endDateTime": "2018-10-19T12:12:51Z",
+              "testcaseResult": "PASS",
+              "metatags": [],
+              "resultLogs": [
+                "[{\"stringValue\":[\"info: ****************Start case  RCA - WWW - Compare local time in www and DB - Mountain Time Zone*****************\",\"info: Select ABQ as departure city\",\"info: Select LAS as destination city\",\"info: Select One Way\",\"info: Departure date  9-21\",\"info: Select 1 adult\",\"info: Click Search\",\"info: CMSDB Connection is established\",\"info: *******************RCA - WWW - Compare local time in www and DB - Mountain Time Zone is Completed*****************\"],\"name\":\"combined-log\",\"type\":\"text/json\"}]"
+              ],
+              "testParameters": [],
+              "testDescription": {
+                "scenarioLabel": "RCA - WWW - Compare local time in www and DB - Mountain Time Zone",
+                "scenarioDescription": "RCA - WWW - Compare local time in www and DB - Mountain Time Zone"
+              },
+              "duration": "00hrs 00mins 28secs"
+            },
+            {
+              "startDateTime": "2018-10-19T12:12:23Z",
+              "testId": "13",
+              "_id": "5bc9ca2766ae38425a56691e",
+              "comments": "",
+              "confirmationNumber": "DB Local Time: 2018-10-19 20:35:00.0",
+              "endDateTime": "2018-10-19T12:12:57Z",
+              "testcaseResult": "PASS",
+              "metatags": [],
+              "resultLogs": [
+                "[{\"stringValue\":[\"info: ****************Start case  RCA - WWW - Compare local time in www and DB - Eastern Time Zone*****************\",\"info: Select CVG as departure city\",\"info: Select LAS as destination city\",\"info: Select One Way\",\"info: Departure date  9-\",\"info: Select 1 adult\",\"info: Click Search\",\"info: CMSDB Connection is established\",\"info: *******************RCA - WWW - Compare local time in www and DB - Eastern Time Zone is Completed*****************\"],\"name\":\"combined-log\",\"type\":\"text/json\"}]"
+              ],
+              "testParameters": [],
+              "testDescription": {
+                "scenarioLabel": "RCA - WWW - Compare local time in www and DB - Eastern Time Zone",
+                "scenarioDescription": "RCA - WWW - Compare local time in www and DB - Eastern Time Zone"
+              },
+              "duration": "00hrs 00mins 34secs"
+            },
+            {
+              "startDateTime": "2018-10-19T12:12:23Z",
+              "testId": "14",
+              "_id": "5bc9ca2766ae38425a56691f",
+              "comments": "",
+              "confirmationNumber": "DB Local Time: 2018-10-22 07:00:00.0",
+              "endDateTime": "2018-10-19T12:12:54Z",
+              "testcaseResult": "PASS",
+              "metatags": [],
+              "resultLogs": [
+                "[{\"stringValue\":[\"info: ****************Start case  RCA - WWW - Compare local time in www and DB - Central Time Zone*****************\",\"info: Select ATW as departure city\",\"info: Select LAS as destination city\",\"info: Select One Way\",\"info: Departure date  9-22\",\"info: Select 1 adult\",\"info: Click Search\",\"info: CMSDB Connection is established\",\"info: *******************RCA - WWW - Compare local time in www and DB - Central Time Zone is Completed*****************\"],\"name\":\"combined-log\",\"type\":\"text/json\"}]"
+              ],
+              "testParameters": [],
+              "testDescription": {
+                "scenarioLabel": "RCA - WWW - Compare local time in www and DB - Central Time Zone",
+                "scenarioDescription": "RCA - WWW - Compare local time in www and DB - Central Time Zone"
+              },
+              "duration": "00hrs 00mins 31secs"
+            },
+            {
+              "startDateTime": "2018-10-19T12:12:23Z",
+              "testId": "16",
+              "_id": "5bc9ca2766ae38425a566920",
+              "comments": "",
+              "confirmationNumber": "DB Local Time: 2018-10-19 16:53:00.0",
+              "endDateTime": "2018-10-19T12:12:57Z",
+              "testcaseResult": "PASS",
+              "metatags": [],
+              "resultLogs": [
+                "[{\"stringValue\":[\"info: ****************Start case  RCA - WWW - Compare local time in www and DB - Pacific Time Zone*****************\",\"info: Select FAT as departure city\",\"info: Select LAS as destination city\",\"info: Select One Way\",\"info: Departure date  9-19\",\"info: Select 1 adult\",\"info: Click Search\",\"info: CMSDB Connection is established\",\"info: *******************RCA - WWW - Compare local time in www and DB - Pacific Time Zone is Completed*****************\"],\"name\":\"combined-log\",\"type\":\"text/json\"}]"
+              ],
+              "testParameters": [],
+              "testDescription": {
+                "scenarioLabel": "RCA - WWW - Compare local time in www and DB - Pacific Time Zone",
+                "scenarioDescription": "RCA - WWW - Compare local time in www and DB - Pacific Time Zone"
+              },
+              "duration": "00hrs 00mins 34secs"
+            }
+          ],
+          "duration": "00hrs 00mins 00secs"
+        }
+      ]
+    }
+  ],
+  "message": ""
+}

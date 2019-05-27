@@ -1,0 +1,39 @@
+[{
+        "active": true,
+        "date": "function toISOString() { [native code] }",
+        "release": "cre180901.0",
+        "userName": "sajesh nair",
+        "__v": 0,
+        "_id": "5bb742fa1eb4ac2ba2cc90fc"
+    },
+    {
+        "active": true,
+        "date": "function toISOString() { [native code] }",
+        "release": "com181101.0",
+        "userName": "sajesh nair",
+        "__v": 0,
+        "_id": "5bb745791eb4ac2ba2cc9106"
+    }, {
+        "active": false,
+        "date": "function toISOString() { [native code] }",
+        "release": "inf180901.0",
+        "userName": "sajesh nair",
+        "__v": 0,
+        "_id": "5bb746ae1eb4ac2ba2cc9116"
+    }, {
+
+        "active": true,
+        "date": "function toISOString() { [native code] }",
+        "release": "dmx181001.0",
+        "userName": "sajesh nair",
+        "__v": 0,
+        "_id": "5bb747211eb4ac2ba2cc9118"
+    }, {
+        "active": true,
+        "date": "function toISOString() { [native code] }",
+        "release": "com181102.0",
+        "userName": "sajesh nair",
+        "__v": 0,
+        "_id": "5bb748111eb4ac2ba2cc9129"
+    }
+]

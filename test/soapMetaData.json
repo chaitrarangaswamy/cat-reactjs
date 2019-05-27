@@ -1,0 +1,24 @@
+{
+    "A2GO_Test": {
+        "testSuites": [{ "metatags": ["@testTag"], "testSuite": "TestSuite" }]
+    },
+    "SoapUI CAT Print_Manifest": {
+        "testSuites": [
+            { "metatags": ["@Booking", "@test1"], "testSuite": "Test1,booking" },
+            { "metatags": ["@test"], "testSuite": "Test" },
+            { "metatags": ["@Booking", "@Car", "@WWW"], "testSuite": "car" }
+        ]
+    },
+    "WS_Sample1": {
+        "testSuites": [
+            { "metatags": ["@cc", "@WWW"], "testSuite": "cc" },
+            { "metatags": ["@cc"], "testSuite": "AIS,booking" },
+            { "metatags": ["@WWW"], "testSuite": "www" }
+        ]
+    },
+
+    "WS_Sample3": {
+        "testSuites": [{ "metatags": ["@cc", "@WWW"], "testSuite": "cc" }]
+    }
+
+}

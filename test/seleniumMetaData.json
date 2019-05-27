@@ -1,0 +1,91 @@
+{
+    "AU_Reg_Set3_Flight_Car (1).xlsx": {
+        "AC_web": [{
+            "properties": { "testId": "1AC_web1524470883", "rowIndex": 1 },
+            "testParameters": {
+                "Iteraions": "1",
+                "Run Mode": "Y",
+                "Scenario": "F+C - 1 Adult no bags and Seats with sign in (Visa Debit)",
+                "Scenario Description": "F+C - 1 Adult no bags and Seats with sign in",
+                "Results": "PASS",
+                "MetaDataTags": "@Booking,@Car,@WWW"
+            }
+        }, {
+            "properties": { "testId": "2AC_web1524470883", "rowIndex": 2 },
+            "testParameters": {
+                "Iteraions": "2",
+                "Run Mode": "Y",
+                "Scenario": "F+C - booking within 24 hrs (Visa Debit)",
+                "Scenario Description": "F+C - booking within 24 hrs",
+                "Results": "PASS",
+                "MetaDataTags": "@Booking,@test"
+            }
+        }, {
+            "properties": { "testId": "3AC_web1524470883", "rowIndex": 3 },
+            "testParameters": {
+                "Iteraions": "3",
+                "Run Mode": "Y",
+                "Scenario": "F+C, OW, 1 Adult - price per person (Visa Credit)",
+                "Scenario Description": "F+C, OW, 1 Adult - price per person",
+                "Results": "SKIP",
+                "MetaDataTags": "@Booking,@test1"
+            }
+
+        }],
+        "FC_Web": [{
+            "properties": { "testId": "1FC_Web1524470548", "rowIndex": 1 },
+            "testParameters": {
+                "Iteraions": "1",
+                "Run Mode": "Y",
+                "Scenario": "F+C - 1 Adult no bags and Seats with sign in (Visa Debit)",
+                "Scenario Description": " F+C - 1 Adult no bags and Seats with sign in",
+                "Results": "PASS",
+                "MetaDataTags": "@Booking,@Car,@WWW"
+            }
+        }, {
+            "properties": { "testId": "2FC_Web1524470548", "rowIndex": 2 },
+            "testParameters": {
+                "Iteraions": "2",
+                "Run Mode": "Y",
+                "Scenario": "F+C - booking within 24 hrs (Visa Debit)",
+                "Scenario Description": "F+C - booking within 24 hrs",
+                "Results": "PASS",
+                "MetaDataTags": "@Booking,@Car,@WWW,@24hrsBooking"
+            }
+        }, {
+            "properties": { "testId": "3FC_Web1524470548", "rowIndex": 3 },
+            "testParameters": {
+                "Iteraions": "3",
+                "Run Mode": "Y",
+                "Scenario": "F+C, OW, 1 Adult - price per person (Visa Credit)",
+                "Scenario Description": " F+C, OW, 1 Adult - price per person",
+                "Results": "SKIP",
+                "MetaDataTags": "@Booking,@Car,@WWW"
+            }
+        }]
+    },
+    "AU_Reg_Test.xlsx": {
+        "SAC_web": [{
+            "properties": { "testId": "1SAC_web1541664713", "rowIndex": 1 },
+            "testParameters": {
+                "Iteraions": "1",
+                "Run Mode": "Y",
+                "Scenario": "F+C - 1 Adult no bags and Seats with sign in (Visa Debit)",
+                "Scenario Description": "F+C - 1 Adult no bags and Seats with sign in",
+                "Results": "PASS",
+                "MetaDataTags": "@Booking,@Car,@WWW"
+            }
+        }, {
+            "properties": { "testId": "2SAC_web1541664713", "rowIndex": 2 },
+            "testParameters": {
+                "Iteraions": "2",
+                "Run Mode": "Y",
+                "Scenario": "F+C - booking within 24 hrs (Visa Debit)",
+                "Scenario Description": "F+C - booking within 24 hrs",
+                "Results": "PASS",
+                "MetaDataTags": "@Booking,@test"
+            }
+        }]
+    }
+
+}

@@ -1,0 +1,29 @@
+[{
+        "allCount": 31,
+        "buildReference": "494",
+        "endDateTime": "2018-10-19T13:36:44Z",
+        "environment": "STG",
+        "failedCount": 0,
+        "jobName": "WS_BAT",
+        "jobStatus": "COMPLETED",
+        "jobType": "SoapUI",
+        "notRunCount": 0,
+        "passedCount": 31,
+        "startDateTime": "2018-10-19T13:22:59Z",
+        "triggeredBy": { "userId": "Mock ID", "userName": "Mock User" }
+    },
+    {
+        "allCount": 31,
+        "buildReference": "495",
+        "endDateTime": "2018-10-19T13:55:06Z",
+        "environment": "STG",
+        "failedCount": 0,
+        "jobName": "WS_BAT",
+        "jobStatus": "COMPLETED",
+        "jobType": "SoapUI",
+        "notRunCount": 0,
+        "passedCount": 31,
+        "startDateTime": "2018-10-19T13:39:44Z",
+        "triggeredBy": { "userId": "Mock ID", "userName": "Mock User" }
+    }
+]

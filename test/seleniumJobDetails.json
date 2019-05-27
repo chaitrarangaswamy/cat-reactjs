@@ -1,0 +1,41 @@
+{
+    "searchQuery": {
+        "rangeCount": 5,
+        "rangeFrom": 0
+    },
+    "searchResult": [{
+        "allCount": 10,
+        "buildReference": "700",
+        "endDateTime": "2018-10-19T15:28:59Z",
+        "environment": "ndd",
+        "failedCount": 0,
+        "jobName": "Chan_Booking_BAT",
+        "jobStatus": "COMPLETED",
+        "jobType": "Selenium",
+        "notRunCount": 0,
+        "passedCount": 10,
+        "startDateTime": "2018-10-19T15:23:24Z",
+        "triggeredBy": { "userId": "Mock ID", "userName": "Mock User" },
+        "updatedOn": "2018-10-19T15:28:59Z",
+        "__v": 0,
+        "_id": "5bc9f75466f9c9503415e8bb"
+    }, {
+        "allCount": 12,
+        "buildReference": "651",
+        "endDateTime": "2018-10-19T15:24:21Z",
+        "environment": "ndd",
+        "failedCount": 10,
+        "jobName": "Chan_nonBooking_BAT",
+        "jobStatus": "COMPLETED",
+        "jobType": "Selenium",
+        "masterBuild": { "jobName": "Chan_BAT_Commercial", "buildReference": "535" },
+        "notRunCount": 0,
+        "passedCount": 2,
+        "startDateTime": "2018-10-19T15:23:24Z",
+        "triggeredBy": { "userId": "Mock ID", "userName": "Mock User" },
+        "updatedOn": "2018-10-19T15:24:21Z",
+        "__v": 0,
+        "_id": "5bc9f71866f9c9503415e8ba"
+    }],
+    "message": ""
+}

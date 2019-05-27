@@ -1,0 +1,14 @@
+{
+    "Device": { "type": "choice", "value": ["IOS", "android"], "setValue": "IOS" },
+    "ENVJOB": {
+        "setValue": "QA1",
+        "type": "choice",
+        "value": ["QA1", "QA2", "STG", "IN1", "IN2"]
+    },
+    "branch": {
+        "setValue": "origin/master",
+        "type": "choice",
+        "value": ["origin/master", "origin/Release", "origin/Develop"]
+    },
+    "name": "A2GO_Yash"
+}
